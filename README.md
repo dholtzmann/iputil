@@ -3,7 +3,8 @@ iputil
 
 [Go](http://golang.org) utility for IP addresses.
 
-- Get an IP address from headers. (reverse proxy or load balancer [Nginx, etc.]) Headers: [X-Forwarded-For] [X-Real-IP].
+- Get an IP address from headers. (reverse proxy or load balancer [Nginx, etc.])
+..* Headers: [X-Forwarded-For] [X-Real-IP].
 - Get an IP address version (IPv4 or IPv6).
 - Check if an IPv4 address is in a private subnet.
 
