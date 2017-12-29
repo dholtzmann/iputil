@@ -12,10 +12,12 @@ iputil
 
 ```golang
 import (
+	"net/http"
+
 	"github.com/dholtzmann/iputil"
 )
 
-func something(w http.ResponseWriter, r *http.Request) {
+func someHandler(w http.ResponseWriter, r *http.Request) {
 	ip, err := iputil.GetIPAdressFromHeader(r)
 	if err != nil {
 		panic(err)
